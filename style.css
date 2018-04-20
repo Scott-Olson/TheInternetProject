@@ -1,0 +1,289 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+a{
+	color:white;
+	text-decoration-line: none;
+	text-decoration-color: white;
+}
+
+h3{
+	color: #2967a0;
+}
+
+h4{
+	margin-top: 15px;
+	color: #2967a0;
+}
+
+.blueText{
+	color: #3272a6;
+}
+
+.blueText2{
+	color: #41a7bc;
+}
+
+.redText{
+	color: #da2926;
+}
+
+.wrapper{
+	width:950px;
+	height: auto;
+}
+
+.header{
+	height: auto;
+}
+
+#logo img{
+	height: 100px;
+	display: inline-block;
+}
+#logo p{
+	margin-top: 30px;
+	font-size: 30px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#banner{
+	min-height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	background:linear-gradient(#2a68a1, #5183ad, #2a68a1) ;
+	border: 5px solid white;
+	color: white;
+	padding-left:15px;
+	margin-top:-25px;
+}
+
+.mainBody{
+	min-height: 950px;
+	width:950px;
+	display:inline-block;
+}
+
+.adBar{
+	min-height: 600px;
+	width:200px;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	margin-left: 15px;
+}
+
+.adTopText{
+	height: auto;
+	width: 200px;
+	display: block;
+	background-color:white;
+}
+
+#topAdText{
+	height: auto;
+	width: 200px;
+	display: block;
+	font-size: 18px;
+}
+
+.adButtons{
+	height: auto;
+	width: 160px;
+	line-height: 25px;
+	display: block;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 5px;
+	margin: 5px 0px 15px 15px;
+	border-radius: 2px;
+	text-decoration-color: white;
+}
+
+.adButtons p:first-child{
+	background-color: #407caf;
+	height: inherit;
+	width: inherit;
+	line-height: inherit;
+	display: block;
+	color: inherit;
+	font-size: inherit;
+	border-radius: inherit;
+	box-shadow: 1px 2px 2px #919294;
+}
+
+.adButtons p:last-child{
+	height: inherit;
+	width: inherit;
+	line-height: inherit;
+	background-color: #ed962d;
+	display: block;
+	color: inherit;
+	font-size: inherit;
+	margin-top: 5px;
+	border-radius: inherit;
+	box-shadow: 1px 2px 2px #919294;
+}
+
+.adMain{
+	height: auto;
+	width: 200px;
+	background-image: url("images/ad_background.png");
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding: 25px 0px;
+	margin-top: 15px;
+	box-shadow: 1px 2px 2px #919294;
+}
+
+.adMain p{
+	width: 150px;
+	margin-left: 12%;
+	height: auto;
+}
+
+.adMain img{
+	height: 100px;
+}
+
+.adMainButton{
+	height: auto;
+	width: 125px;
+	background-color: #44c7df;
+	text-align: center;
+	padding: 5px 15px;
+	border: 1px solid #23343c;
+	border-radius: 35px;
+	margin-left: 22px;
+}
+
+.Content{
+	height: 600px;
+	width: 600px;
+	background-color: white;
+	display: inline-block;
+	margin-left: 50px;
+	list-style-position: outside;
+	list-style-type: circle; 
+}
+
+.Content ul{
+	margin-left: 50px;
+}
+.contentHeader{
+	min-height: 35px;
+	min-width: 180px;
+	margin-bottom: 10px;
+
+}
+
+.contentHeaderLeft{
+	min-width: 65px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contentHeaderLeft p{
+	width: 45px;
+	display: inline-block;
+}
+
+.contentHeaderLeft img{
+	height:15px;
+	display: inline-block;
+}
+
+.contentHeaderRight img{
+	margin-top: 3px;
+	height:35px;
+}
+
+.contentHeaderRight{
+	margin-left: 380px;
+	width: 150px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contentHeaderRightText{
+	min-width: 80px;
+	display:inline-block;
+	vertical-align: top;
+}
+
+.contentHeaderRight p{
+	font-size:	8px;
+	color: #909090;
+}
+
+.contentHeaderRight p:nth-child(2){
+	font-size:	18px;
+	color: #49c5e0;
+}
+
+.contentText1{
+	height:auto;
+}
+
+#contentText1Image{
+	height: 100px;
+	text-align: center;
+}
+
+#contentText1Image img{
+	height: 100px;
+}
+
+.contentText1 ol{
+	margin-left: 50px;
+}
+
+.contentLower{
+	width: 600px;
+	border-style: solid solid none solid;
+	border-width: 5px;
+	border-color: #3885e0;
+	border-radius: 1px;
+	box-shadow: 1px 0px #919294;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.contentText2 {
+	width: 400px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
+}
+
+.contentLower img{
+	height: 100px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom:  50px;
+}
+
+.contentLower h4{
+	width: 400px;
+	margin-left: 5px;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-left: 0px;
+}
+
+.Content a{
+	color: #41a7bc;
+}
+
+
+
+
+
+
+
